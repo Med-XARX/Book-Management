@@ -7,6 +7,8 @@ import useLocalStorage from '../hooks/useLocalStorage';
 import EditBook from '../components/EditBook';
 import BooksContext from '../context/BooksContext';
 
+// adding routing to components in  this app
+
 const AppRouter = () => {
   const [books, setBooks] = useLocalStorage('books', []);
 
